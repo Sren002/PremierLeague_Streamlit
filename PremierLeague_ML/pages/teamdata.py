@@ -8,4 +8,5 @@ df = pd.read_csv("https://raw.githubusercontent.com/Sren002/web-scraping-Premier
 
 dfML = pd.read_csv("https://raw.githubusercontent.com/Sren002/web-scraping-PremierLeagueML/main/predictions.csv")
 
-st.write(st.session_state["team"])
+team = st.session_state["team"]
+
