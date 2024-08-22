@@ -5,7 +5,7 @@ import requests
 from io import BytesIO
 
 # Loading Image using PIL
-url = 'https://github.com/Sren002/PremierLeague_Streamlit/blob/main/PremierLeague_ML/resources/premier_league.jpg?raw=true'
+url = 'https://github.com/Sren002/PremierLeague_Streamlit/blob/main/PremierLeague_ML/resources/premier_league_logo.png?raw=true'
 response = requests.get(url)
 im = Image.open(BytesIO(response.content))
 
